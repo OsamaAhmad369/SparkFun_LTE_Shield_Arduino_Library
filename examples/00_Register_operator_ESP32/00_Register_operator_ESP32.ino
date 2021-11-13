@@ -8,7 +8,7 @@
 #define baud        9600
 #define RTS_S       12
 SoftwareSerial mySerial;
-LTE_Shield lte(POWER_PIN, RESET_PIN,_txPin,_rxPin ,1); //Set last parameter to 1 if your shield  power pin and reset pin are active high 
+LTE_Shield lte(POWER_PIN, RESET_PIN,_txPin,_rxPin ,0); //Set last parameter to 1 if your shield  power pin and reset pin are active high 
 // Network operator can be set to either:
 // MNO_SW_DEFAULT -- DEFAULT
 // MNO_ATT -- AT&T 
